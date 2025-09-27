@@ -76,7 +76,7 @@
 ```bash
 docker run -d \
   --name katelyatv \
-  -p 3000:3000 \
+  -p 8666:3000 \
   -e PASSWORD=your_password \
   --restart unless-stopped \
   ghcr.io/katelya77/katelyatv:latest
