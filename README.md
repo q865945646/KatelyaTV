@@ -77,9 +77,9 @@
 docker run -d \
   --name katelyatv \
   -p 8666:3000 \
-  -e PASSWORD=your_password \
-  --restart unless-stopped \
-  ghcr.io/katelya77/katelyatv:latest
+  -e PASSWORD=password \
+  --restart always \
+  ghcr.1ms.run/katelya77/katelyatv:latest
 ```
 
 **挂载自定义配置**（可选）：
